@@ -19,7 +19,6 @@ using WebAPIJenkins.Results;
 
 namespace WebAPIJenkins.Controllers
 {
-    [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
